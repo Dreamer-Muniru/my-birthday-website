@@ -1,0 +1,70 @@
+	body {margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: white;
+}
+
+.navbar-brand img {
+	height: 3rem;
+	position: absolute;
+	top: 18px;	
+}
+
+.navbar-home {
+	background-color: lightblue;
+}
+
+.navbar-default {
+    background-color: #1b0a05;
+    border: none;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.img-responsive {
+	width: 80%;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.contact-body h3{
+	color: #1b0a05;
+}
+
+.contact-text {
+	color: #fff;
+	background-color: #1b0a05;
+	height: 400px;
+	padding: 20px;
+}
+
+
+
+footer {
+	background-color: #0f0e0e;
+	text-align: center;
+	padding: 10px 10px 90px;
+	margin-top: 60px;
+	color: white;
+
+}
+.loctimg img {
+	height: 200px;
+	overflow: hidden;
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	
+	.contact-text {
+
+	}
+}
+

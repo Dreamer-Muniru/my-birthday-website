@@ -1,0 +1,71 @@
+body {margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.navbar-brand img {
+	height: 3rem;
+	position: absolute;
+	top: 18px;	
+}
+
+.navbar-home {
+	background-color: lightblue;
+}
+
+.navbar-default {
+    background-color: #1b0a05;
+    border: none;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.friend_pic {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.friend_pic img {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.columns h4 {
+	font-size: 25px;
+	background-color: #1b0a05;
+	color: white;
+	border-radius: 10px;
+}
+
+.columns h4:hover {
+	background-color: orange;
+	color: #1b0a05;
+
+}
+
+
+footer {
+	background-color: #0f0e0e;
+	text-align: center;
+	padding: 10px 10px 90px;
+	margin-top: 60px;
+	color: white;
+
+}
+
+
+@media (max-width: 762px) {
+	.friends_part {
+		display: block;
+		width: 90%;
+	}
+
+}
+
